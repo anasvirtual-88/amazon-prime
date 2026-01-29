@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navBar{
+    justify-content: space-between;
+    display: flex;
+    background-color: aqua;
+    margin: 0px 30px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: rgb(129, 129, 129);
+    position: sticky;
+    top: 0;
+    z-index: 00;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.naa{
+    background-color: black;
+}
+.navBar img{
+    width: 090px;
+    margin-left: 1rem;
+}
+.rightside{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.leftside{
+    display: flex;
+    align-items: center;
+}
+.lang{
+    display: flex;
+}
+.search img{
+    width: 40px;
+    height: 50px;
+}
+.lang img{
+    width: 20px;
+    height: 50px;
+    margin-top: 0.5rem;
+}
+.search,.menu{
+    margin-top: 1rem; 
+}
+.lang p{
+    margin-top: 0.8rem;
+}
+.menu img{
+     width: 40px;
+    height: 50px;
+}
+.guest img{
+     width: 40px;
+    height: 40px;
+}
+.rightside a{
+    text-decoration: none;
+    margin-top: 1rem;
+    gap: 2rem;
+    color: white;
+}
+.button{
+    padding: 10px 10px;
+}
+.button button{
+    padding: 10px 10px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(1, 151, 201);
+    color: white;
+}
+.button button:hover{
+    cursor: pointer;
+}
+.links a:hover{
+    cursor: pointer;
+    color: rgb(62, 82, 82);
+}
+.section1{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imgsec img{
+    width: 800px;
+    height: 500px;
+}
+.heading h1{
+    margin: 2rem 3rem;
+    font-size: 37px;
+    font-weight: bold;
+
+}
+.btnsec{
+    align-items: center;
+}
+.para p{
+    margin: 2rem 3rem;
+    font-size: 18px;
+    gap: 12px;
+}
+.section2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(3, 3, 20);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.moblie p{
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.monitor p{
+    margin-top: 2rem;
+    font-weight: bold;
+
+}
+.wifi p{
+    margin-top: 2rem;
+    font-weight: bold;
+}
+.wifi{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+.moblie{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.monitor{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+.wifi h1{
+    text-align: center;
+}
+.moblie h1{
+    text-align: center  ;
+}
+.monitor h1{
+    text-align: center;
+}
+.footer{
+    background-color: rgb(68, 61, 53);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo img{
+    width: 100px;
+    height: 30px;
+    margin-left: 39rem;
+    margin-top: 1.5rem;
+}
+.texts{
+    margin-left: 31rem;
+}
+.texts ul{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.texts ul li{
+    list-style: none;
+    color: lightblue;
+}
+.date p{
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.date{
+    padding-bottom: 1rem;
+}
